@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Szkło Kolor - panele szklane z nadrukiem UV, kabiny i lustra na wymiar | Miszewko, Trójmiasto</title>
+<meta name="description" content="Zakład szklarski Szkło Kolor w Miszewku pod Gdańskiem: szklane panele z nadrukiem UV do kuchni i łazienki, kabiny prysznicowe, lustra, balustrady, drzwi i zabudowy całoszklane na wymiar.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/archivo-rdzen.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" href="img/hero-m-720.webp" imagesrcset="img/hero-m-720.webp 720w, img/hero-m-1080.webp 1080w" imagesizes="100vw" media="(max-width:767px), (max-aspect-ratio:1/1)" fetchpriority="high">
+<link rel="preload" as="image" href="img/hero-1920.webp" imagesrcset="img/hero-1280.webp 1280w, img/hero-1920.webp 1920w, img/hero-2560.webp 2560w, img/hero-3000.webp 3000w" imagesizes="100vw" media="(min-width:768px) and (min-aspect-ratio:1/1)" fetchpriority="high">
+<style>
+{{FONTFACE}}
+:root{
+  --red:#E2001A;--red-d:#B80016;--ink:#16181B;--txt:#1E2024;--mut:#5B6068;--line:#DCDFE3;--sec:#F1F2F4;--grey:#A3A5A9;
+  --wrap:min(92vw,1720px);--pad:max(4vw,16px);
+  --st:118%;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:72px;-webkit-text-size-adjust:100%}
+body{margin:0;font-family:Archivo,system-ui,"Segoe UI",Arial,sans-serif;font-size:17px;line-height:1.6;color:var(--txt);background:#fff;font-stretch:100%}
+img{max-width:100%;display:block}
+a{color:inherit}
+h1,h2,h3{font-stretch:var(--st);font-weight:800;line-height:1.08;letter-spacing:-.01em;margin:0}
+h2{font-size:clamp(30px,3.2vw,52px)}
+h3{font-size:20px;line-height:1.2}
+p{margin:0 0 1em}
+.wrap{width:var(--wrap);margin:0 auto}
+.btn{--c:var(--red);display:inline-flex;align-items:center;justify-content:center;gap:.6em;min-height:52px;padding:0 30px 0 26px;background:var(--c);color:#fff;font-weight:700;font-size:17px;text-decoration:none;border:0;cursor:pointer;font-family:inherit;font-stretch:108%;
+  clip-path:polygon(0 0,calc(100% - 14px) 0,100% 50%,calc(100% - 14px) 100%,0 100%);transition:background .2s}
+.btn:hover{background:var(--red-d)}
+.btn.jasny{background:#fff;color:var(--ink)}
+.btn.jasny:hover{background:#E9EAEC}
+.btn.ciemny{background:var(--ink)}
+.btn.ciemny:hover{background:#000}
+/* naglowek */
+.top{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;height:72px;gap:24px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;font-stretch:125%;font-weight:800;font-size:26px;letter-spacing:-.02em;line-height:1}
+.logo svg{width:52px;height:36px;flex:none}
+.logo .s{color:#9A9CA0}.logo .k{color:var(--red)}
+.nav{display:flex;align-items:center;gap:clamp(18px,2vw,36px)}
+.nav a{text-decoration:none;font-weight:600;font-size:16px;color:var(--txt)}
+.nav a:hover{color:var(--red)}
+.nav .btn{min-height:44px;font-size:16px;padding:0 24px 0 20px;color:#fff}
+.burger{display:none;width:48px;height:48px;border:0;background:none;padding:12px;cursor:pointer}
+.burger span{display:block;height:2px;background:var(--ink);margin:6px 0;transition:transform .2s,opacity .2s}
+/* hero */
+.hero{position:relative;min-height:calc(100svh - 73px);display:flex;align-items:center;color:#fff;overflow:hidden;background:var(--ink)}
+.hero picture,.hero picture img{position:absolute;inset:0;width:100%;height:100%}
+.hero picture img{object-fit:cover;object-position:60% 40%}
+.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(14,15,18,.86) 0%,rgba(14,15,18,.66) 34%,rgba(14,15,18,.1) 66%,rgba(14,15,18,0) 100%)}
+.hero .wrap{position:relative;z-index:2;padding:64px 0}
+.hero h1{font-size:clamp(38px,3.6vw,68px);max-width:15.5em;max-width:min(15.5em,62vw)}
+.hero h1 .red{display:block;color:#fff}
+.hero .lead{font-size:clamp(17px,1.2vw,20px);max-width:36em;margin:26px 0 34px;color:#E6E7E9}
+.hero .cta{display:flex;flex-wrap:wrap;gap:14px}
+/* sekcje */
+section{padding:clamp(64px,8vw,120px) 0}
+.sec{background:var(--sec)}
+.glowa{display:flex;justify-content:space-between;align-items:flex-end;gap:24px 48px;flex-wrap:wrap;margin-bottom:clamp(28px,3vw,48px)}
+.glowa p{max-width:38em;color:var(--mut);margin:0}
+.glowa h2{max-width:16em}
+/* oferta */
+.kafle{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(14px,1.4vw,24px)}
+.kafel{position:relative;background:#fff;display:flex;flex-direction:column}
+.kafel .img{position:relative;aspect-ratio:3/4;overflow:hidden;background:#D9DBDE}
+.kafel img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.kafel:hover img{transform:scale(1.03)}
+.kafel .img:after{content:"";position:absolute;left:18px;bottom:-11px;width:22px;height:22px;background:var(--red);transform:rotate(45deg)}
+.kafel .opis{padding:24px 22px 26px}
+.kafel h3{margin-bottom:8px}
+.kafel p{margin:0;color:var(--mut);font-size:16px;line-height:1.5}
+@media (min-width:1700px){.kafle{grid-template-columns:repeat(6,1fr)}}
+/* UV */
+.uv{background:var(--ink);color:#fff;position:relative;overflow:hidden}
+.uv .glowa p{color:#C3C6CB}
+.uv .tafle{position:absolute;right:-6vw;top:-4vw;width:min(46vw,760px);opacity:.1;pointer-events:none}
+.uv .wzory{position:relative;color:#C3C6CB;font-size:16px;max-width:60em;margin:0 0 clamp(28px,3vw,44px)}
+.uv .wzory b{color:#fff;font-weight:600}
+/* pas zdjec */
+.pas{position:relative}
+.tor{display:flex;gap:clamp(12px,1.2vw,20px);overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;-webkit-overflow-scrolling:touch;cursor:grab}
+.tor::-webkit-scrollbar{display:none}
+.tor.drag{cursor:grabbing;scroll-snap-type:none}
+.tor button{flex:0 0 calc((100% - 3*clamp(12px,1.2vw,20px))/4);scroll-snap-align:start;padding:0;border:0;background:#2A2D31;aspect-ratio:4/3;cursor:zoom-in;overflow:hidden;position:relative}
+.tor button img{width:100%;height:100%;object-fit:cover;pointer-events:none;-webkit-user-drag:none;user-select:none}
+.tor button span{position:absolute;left:0;bottom:0;background:rgba(14,15,18,.78);color:#fff;font-size:14px;padding:6px 12px;font-weight:600}
+@media (max-width:1699px){.tor button{flex-basis:calc((100% - 2*clamp(12px,1.2vw,20px))/3)}}
+@media (max-width:1279px){.tor button{flex-basis:42%}}
+@media (max-width:767px){.tor button{flex-basis:84%}}
+.strz{display:flex;gap:8px;margin-left:auto}
+.strz button{width:52px;height:52px;border:1.5px solid currentColor;background:none;color:inherit;cursor:pointer;display:grid;place-items:center;opacity:1;transition:opacity .2s,background .2s}
+.strz button:disabled{opacity:.3;cursor:default}
+.strz button:not(:disabled):hover{background:var(--red);border-color:var(--red);color:#fff}
+.strz svg{width:18px;height:18px}
+/* realizacje */
+.kat{display:grid;grid-template-columns:repeat(3,1fr);gap:0 clamp(24px,3vw,56px);margin:0 0 clamp(32px,3vw,52px);padding:0;list-style:none}
+.kat li{display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid var(--line);padding:14px 0;font-weight:600}
+.kat li b{font-stretch:var(--st);font-weight:800;color:var(--red);font-size:20px}
+.realizacje .tor button{background:#D9DBDE}
+/* firma */
+.firma .wrap{display:grid;grid-template-columns:1fr 1fr;gap:clamp(36px,6vw,110px);align-items:start}
+.firma h2{margin-bottom:28px}
+.firma p{color:#3B3F45}
+.lista{list-style:none;padding:0;margin:0;columns:2;column-gap:40px}
+.lista li{position:relative;padding:9px 0 9px 26px;break-inside:avoid;border-bottom:1px solid var(--line);font-size:16px;line-height:1.45}
+.lista li:before{content:"";position:absolute;left:2px;top:16px;width:9px;height:9px;background:var(--red);transform:rotate(45deg)}
+.lista li small{display:block;color:var(--mut);font-size:14px}
+.firma h3{margin:0 0 18px;font-size:24px}
+.lustra{margin-top:36px}
+/* kontakt */
+.kontakt .wrap{display:grid;grid-template-columns:5fr 7fr;gap:0;background:#fff;box-shadow:0 1px 0 var(--line)}
+.dane{background:var(--red);color:#fff;padding:clamp(32px,4vw,64px);position:relative;overflow:hidden}
+.dane h2{font-size:clamp(28px,2.6vw,44px);margin-bottom:22px}
+.dane p{color:#FFE3E6}
+.dane dl{margin:28px 0 0;display:grid;grid-template-columns:auto 1fr;gap:10px 22px;font-size:16px}
+.dane dt{color:#FFD0D5}
+.dane dd{margin:0;font-weight:600}
+.dane a{text-decoration:none}
+.dane a:hover{text-decoration:underline}
+.dane .tafle{position:absolute;right:-60px;bottom:-40px;width:260px;opacity:.16}
+form{padding:clamp(32px,4vw,64px);border:1px solid var(--line);border-left:0;display:grid;grid-template-columns:1fr 1fr;gap:18px 20px;align-content:start}
+form h3{grid-column:1/-1;font-size:24px}
+form p.info{grid-column:1/-1;margin:0;color:var(--mut);font-size:15px}
+label{display:flex;flex-direction:column;gap:6px;font-size:14px;font-weight:600;color:#3B3F45}
+label.full{grid-column:1/-1}
+input,select,textarea{font:inherit;font-size:16px;font-weight:400;border:1.5px solid #C9CDD2;background:#fff;padding:12px 14px;border-radius:0;color:var(--txt);width:100%}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--ink)}
+textarea{min-height:110px;resize:vertical}
+input[type=file]{padding:10px;background:var(--sec)}
+form .btn{justify-self:start}
+.wyslano{grid-column:1/-1;background:var(--sec);padding:14px 16px;font-size:15px;display:none}
+.mapa{margin-top:clamp(20px,2vw,32px);height:clamp(300px,32vw,460px);background:#E4E6E9;display:grid;place-items:center;color:var(--mut)}
+.mapa iframe{width:100%;height:100%;border:0}
+/* stopka */
+footer{background:var(--ink);color:#B9BCC1;padding:56px 0 30px;font-size:15px}
+footer .wrap{display:grid;grid-template-columns:2fr 1fr 1fr;gap:32px}
+footer .logo .s{color:#C5C6C8}
+footer h4{color:#fff;margin:0 0 12px;font-size:16px}
+footer a{text-decoration:none}
+footer a:hover{color:#fff}
+footer ul{list-style:none;padding:0;margin:0;line-height:2}
+footer .dol{grid-column:1/-1;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;border-top:1px solid #2E3136;padding-top:22px;margin-top:8px}
+{{BADGE_STYLE}}
+/* lightbox */
+.lb{position:fixed;inset:0;z-index:100;background:rgba(10,11,13,.94);display:none;align-items:center;justify-content:center}
+.lb.on{display:flex}
+.lb img{max-width:92vw;max-height:84vh;object-fit:contain}
+.lb .x,.lb .l,.lb .p{position:absolute;background:none;border:0;color:#fff;cursor:pointer;width:56px;height:56px;display:grid;place-items:center}
+.lb .x{top:10px;right:10px;font-size:34px;line-height:1}
+.lb .l{left:10px;top:50%;transform:translateY(-50%)}
+.lb .p{right:10px;top:50%;transform:translateY(-50%)}
+.lb svg{width:26px;height:26px}
+.lb .cap{position:absolute;bottom:16px;left:0;right:0;text-align:center;color:#D5D7DA;font-size:15px}
+/* telefon */
+@media (max-width:1023px){
+  .nav{position:fixed;top:64px;left:0;right:0;bottom:0;background:#fff;flex-direction:column;align-items:stretch;gap:0;padding:12px var(--pad) 24px;transform:translateX(100%);transition:transform .25s;overflow-y:auto}
+  .nav.on{transform:none}
+  .nav a{padding:16px 0;border-bottom:1px solid var(--line);font-size:20px;font-stretch:110%}
+  .nav .btn{margin-top:22px;min-height:54px;font-size:18px;border:0}
+  .burger{display:block}
+  .burger.on span:nth-child(1){transform:translateY(8px) rotate(45deg)}
+  .burger.on span:nth-child(2){opacity:0}
+  .burger.on span:nth-child(3){transform:translateY(-8px) rotate(-45deg)}
+  .top .wrap{height:64px}
+  html{scroll-padding-top:64px}
+  .hero{min-height:calc(100svh - 65px)}
+  .kafle{grid-template-columns:repeat(2,1fr)}
+  .kat{grid-template-columns:repeat(2,1fr)}
+  .firma .wrap{grid-template-columns:1fr}
+  .kontakt .wrap{grid-template-columns:1fr}
+  form{border-left:1px solid var(--line);border-top:0}
+  footer .wrap{grid-template-columns:1fr 1fr}
+  footer .wrap>div:first-child{grid-column:1/-1}
+}
+@media (max-width:767px){
+  body{font-size:16px}
+  .logo{font-size:21px}.logo svg{width:42px;height:30px}
+  .hero{align-items:flex-end}
+  .hero picture img{object-position:50% 30%}
+  .hero:after{background:linear-gradient(180deg,rgba(14,15,18,.05) 0%,rgba(14,15,18,.2) 30%,rgba(14,15,18,.86) 58%,rgba(14,15,18,.95) 100%)}
+  .hero .wrap{padding:32px 0 28px}
+  .hero h1{font-size:clamp(27px,7.4vw,34px);max-width:none}
+  .hero .lead{font-size:16px;margin:16px 0 24px;line-height:1.5}
+  .hero .cta{flex-direction:column;gap:10px}
+  .hero .cta .btn{width:100%}
+  .glowa h2{max-width:none}
+  .kafle{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;gap:12px;margin:0 calc(-1*(100vw - var(--wrap))/2);padding:0 calc((100vw - var(--wrap))/2);scroll-padding:0 calc((100vw - var(--wrap))/2)}
+  .kafle::-webkit-scrollbar{display:none}
+  .kafel{flex:0 0 78%;scroll-snap-align:start}
+  .kat{grid-template-columns:1fr}
+  .lista{columns:1}
+  form{grid-template-columns:1fr}
+  .strz button{width:46px;height:46px}
+  .dane dl{grid-template-columns:1fr;gap:2px}
+  .dane dd{margin-bottom:10px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="#" aria-label="Szkło Kolor - strona główna"><svg viewBox="0 0 52 36" aria-hidden="true"><path d="M17 3 32 18 17 33 2 18Z" fill="#E2001A"/><path d="M25 3 40 18 25 33 10 18Z" fill="#EC7A70"/><path d="M33 3 48 18 33 33 18 18Z" fill="#F7D3CC" stroke="#E7B7AE" stroke-width=".8"/></svg><span><span class="s">Szkło</span><span class="k">KOLOR</span></span></a>
+    <nav class="nav" id="nav">
+      <a href="#oferta">Oferta</a>
+      <a href="#nadruk-uv">Nadruk UV</a>
+      <a href="#realizacje">Realizacje</a>
+      <a href="#o-firmie">O firmie</a>
+      <a href="#kontakt">Kontakt</a>
+      <a class="btn" href="tel:+48586849892">58 684 98 92</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+<section class="hero" style="padding:0">
+  <picture>
+    <source media="(max-width:767px), (max-aspect-ratio:1/1)" srcset="img/hero-m-720.webp 720w, img/hero-m-1080.webp 1080w" sizes="100vw" width="720" height="1162">
+    <img src="img/hero-1920.webp" srcset="img/hero-1280.webp 1280w, img/hero-1920.webp 1920w, img/hero-2560.webp 2560w, img/hero-3000.webp 3000w" sizes="(min-aspect-ratio:2/1) 100vw, 220vh" width="1920" height="808" alt="Szklany panel z nadrukiem UV nad blatem kuchennym" fetchpriority="high">
+  </picture>
+  <div class="wrap">
+    <h1>Szkło na wymiar z nadrukiem UV - panele, kabiny i lustra w Trójmieście</h1>
+    <p class="lead">Zakład szklarski Szkło Kolor w Miszewku pod Gdańskiem. Na zamówienie wykonujemy szklane panele do kuchni i łazienki, kabiny prysznicowe, lustra, balustrady, drzwi i zabudowy całoszklane.</p>
+    <div class="cta">
+      <a class="btn" href="#kontakt">Zapytaj o wycenę</a>
+      <a class="btn jasny" href="tel:+48586849892">Zadzwoń: 58 684 98 92</a>
+    </div>
+  </div>
+</section>
+
+<section id="oferta">
+  <div class="wrap">
+    <div class="glowa">
+      <h2>Co wykonujemy na zamówienie</h2>
+      <p>Każdą taflę przygotowujemy pod konkretne miejsce: docinamy, szlifujemy, wiercimy otwory, hartujemy i drukujemy. Szkło przeźroczyste, kolorowe, satynowe i lustra w kilku kolorach.</p>
+    </div>
+    <div class="kafle">
+      <article class="kafel"><div class="img"><img src="img/t-kuchnia-480.webp" srcset="img/t-kuchnia-480.webp 480w, img/t-kuchnia-800.webp 800w" sizes="(max-width:767px) 78vw, (max-width:1023px) 46vw, (max-width:1699px) 30vw, 16vw" width="480" height="640" loading="lazy" alt="Panel szklany z nadrukiem storczyków w kuchni"></div><div class="opis"><h3>Panele szklane do kuchni</h3><p>Hartowane szkło odporne na ciepło, z nadrukiem UV albo w jednym kolorze.</p></div></article>
+      <article class="kafel"><div class="img"><img src="img/t-kabiny-480.webp" srcset="img/t-kabiny-480.webp 480w, img/t-kabiny-800.webp 800w" sizes="(max-width:767px) 78vw, (max-width:1023px) 46vw, (max-width:1699px) 30vw, 16vw" width="480" height="640" loading="lazy" alt="Kabina prysznicowa ze szkła bezbarwnego"></div><div class="opis"><h3>Kabiny i ścianki prysznicowe</h3><p>Na wymiar łazienki, z okuciami między innymi firmy CDA.</p></div></article>
+      <article class="kafel"><div class="img"><img src="img/t-lustra-480.webp" srcset="img/t-lustra-480.webp 480w, img/t-lustra-800.webp 800w" sizes="(max-width:767px) 78vw, (max-width:1023px) 46vw, (max-width:1699px) 30vw, 16vw" width="480" height="640" loading="lazy" alt="Lustro z ozdobnym podświetleniem LED w łazience"></div><div class="opis"><h3>Lustra</h3><p>Srebrne, grafitowe, brązowe, z oświetleniem LED, fazowane i piaskowane.</p></div></article>
+      <article class="kafel"><div class="img"><img src="img/t-balustrady-480.webp" srcset="img/t-balustrady-480.webp 480w, img/t-balustrady-800.webp 800w" sizes="(max-width:767px) 78vw, (max-width:1023px) 46vw, (max-width:1699px) 30vw, 16vw" width="480" height="640" loading="lazy" alt="Szklana balustrada schodów w domu"></div><div class="opis"><h3>Balustrady i schody</h3><p>Balustrady ze szkła i szklane stopnie według projektu.</p></div></article>
+      <article class="kafel"><div class="img"><img src="img/t-zabudowy-480.webp" srcset="img/t-zabudowy-480.webp 480w, img/t-zabudowy-800.webp 800w" sizes="(max-width:767px) 78vw, (max-width:1023px) 46vw, (max-width:1699px) 30vw, 16vw" width="480" height="640" loading="lazy" alt="Całoszklana zabudowa łazienki z drzwiami"></div><div class="opis"><h3>Drzwi i zabudowy całoszklane</h3><p>Drzwi ze szkła hartowanego 8 i 10 mm, ścianki i zabudowy.</p></div></article>
+      <article class="kafel"><div class="img"><img src="img/t-lazienka-480.webp" srcset="img/t-lazienka-480.webp 480w, img/t-lazienka-800.webp 800w" sizes="(max-width:767px) 78vw, (max-width:1023px) 46vw, (max-width:1699px) 30vw, 16vw" width="480" height="640" loading="lazy" alt="Szklana ściana z grafiką paproci w łazience"></div><div class="opis"><h3>Panele w łazience</h3><p>Szklane ściany z grafiką nad wanną, umywalką i pod prysznicem.</p></div></article>
+    </div>
+  </div>
+</section>
+
+<section class="uv" id="nadruk-uv">
+  <svg class="tafle" viewBox="0 0 300 200" aria-hidden="true"><path d="M100 0 200 100 100 200 0 100Z" fill="#E2001A"/><path d="M150 0 250 100 150 200 50 100Z" fill="#fff" opacity=".6"/><path d="M200 0 300 100 200 200 100 100Z" fill="#fff" opacity=".35"/></svg>
+  <div class="wrap">
+    <div class="glowa">
+      <h2>Nadruk UV na szkle - kolor, który staje się częścią ściany</h2>
+      <div class="strz" data-pas="uvpas"><button class="wst" aria-label="Poprzednie zdjęcia"><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 3 5 9l6 6"/></svg></button><button class="dal" aria-label="Następne zdjęcia"><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="2"><path d="m7 3 6 6-6 6"/></svg></button></div>
+    </div>
+    <p class="wzory">Panele drukujemy na hartowanym szkle odpornym na ciepło, więc sprawdzają się za płytą grzewczą i w łazience. Wzór można wybrać z naszej galerii grafik, w której jest ponad 20 kategorii: <b>abstrakcje, kwiaty, krajobrazy, Trójmiasto, kawa, herbata i wino, krople wody, drewno, cegła i kamień, witraże, zwierzęta</b> i wiele innych. Panel może też być w jednym, wybranym kolorze.</p>
+    <div class="pas"><div class="tor" id="uvpas">
+      <button data-big="img/lb-593.webp" data-m="img/lbm-593.webp" aria-label="Powiększ: panel ze storczykami"><img src="img/g-593-600.webp" srcset="img/g-593-600.webp 600w, img/g-593-900.webp 900w" sizes="(max-width:767px) 84vw, (max-width:1279px) 42vw, 30vw" width="600" height="450" loading="lazy" alt="Panel ze storczykami nad blatem"><span>Kuchnia</span></button>
+      <button data-big="img/lb-348.webp" data-m="img/lbm-348.webp" aria-label="Powiększ: czerwony panel w łazience"><img src="img/g-348-600.webp" srcset="img/g-348-600.webp 600w, img/g-348-900.webp 900w" sizes="(max-width:767px) 84vw, (max-width:1279px) 42vw, 30vw" width="600" height="450" loading="lazy" alt="Czerwony panel z grafiką błyskawic w łazience"><span>Łazienka</span></button>
+      <button data-big="img/lb-603.webp" data-m="img/lbm-603.webp" aria-label="Powiększ: panel z rafą koralową"><img src="img/g-603-600.webp" srcset="img/g-603-600.webp 600w, img/g-603-900.webp 900w" sizes="(max-width:767px) 84vw, (max-width:1279px) 42vw, 30vw" width="600" height="450" loading="lazy" alt="Panel z rafą koralową w kuchni"><span>Kuchnia</span></button>
+      <button data-big="img/lb-956.webp" data-m="img/lbm-956.webp" aria-label="Powiększ: łazienka z panelem z wodospadem"><img src="img/g-956-600.webp" srcset="img/g-956-600.webp 600w, img/g-956-900.webp 900w" sizes="(max-width:767px) 84vw, (max-width:1279px) 42vw, 30vw" width="600" height="450" loading="lazy" alt="Szklana ściana z turkusowymi kaskadami w łazience"><span>Łazienka</span></button>
+      <button data-big="img/lb-620.webp" data-m="img/lbm-620.webp" aria-label="Powiększ: panel z panoramą miasta"><img src="img/g-620-600.webp" srcset="img/g-620-600.webp 600w, img/g-620-900.webp 900w" sizes="(max-width:767px) 84vw, (max-width:1279px) 42vw, 30vw" width="600" height="450" loading="lazy" alt="Panel z panoramą miasta w sepii"><span>Kuchnia</span></button>
+      <button data-big="img/lb-946.webp" data-m="img/lbm-946.webp" aria-label="Powiększ: panel z zachodem słońca"><img src="img/g-946-600.webp" srcset="img/g-946-600.webp 600w, img/g-946-900.webp 900w" sizes="(max-width:767px) 84vw, (max-width:1279px) 42vw, 30vw" width="600" height="450" loading="lazy" alt="Duży panel z zachodem słońca"><span>Panel dekoracyjny</span></button>
+      <button data-big="img/lb-587.webp" data-m="img/lbm-587.webp" aria-label="Powiększ: panel z mozaiką"><img src="img/g-587-600.webp" srcset="img/g-587-600.webp 600w, img/g-587-900.webp 900w" sizes="(max-width:767px) 84vw, (max-width:1279px) 42vw, 30vw" width="600" height="450" loading="lazy" alt="Panel z grafiką mozaiki w kuchni"><span>Kuchnia</span></button>
+      <button data-big="img/lb-667.webp" data-m="img/lbm-667.webp" aria-label="Powiększ: panel z plażą"><img src="img/g-667-600.webp" srcset="img/g-667-600.webp 600w, img/g-667-900.webp 900w" sizes="(max-width:767px) 84vw, (max-width:1279px) 42vw, 30vw" width="600" height="450" loading="lazy" alt="Panel z plażą i podświetleniem LED"><span>Kuchnia</span></button>
+      <button data-big="img/lb-645.webp" data-m="img/lbm-645.webp" aria-label="Powiększ: panel z czerwoną falą"><img src="img/g-645-600.webp" srcset="img/g-645-600.webp 600w, img/g-645-900.webp 900w" sizes="(max-width:767px) 84vw, (max-width:1279px) 42vw, 30vw" width="600" height="450" loading="lazy" alt="Panel z czerwoną falą w kuchni"><span>Kuchnia</span></button>
+    </div></div>
+  </div>
+</section>
+
+<section class="realizacje" id="realizacje">
+  <div class="wrap">
+    <div class="glowa">
+      <h2>Ponad 1000 zdjęć z naszych realizacji</h2>
+      <div class="strz" data-pas="relpas"><button class="wst" aria-label="Poprzednie zdjęcia"><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 3 5 9l6 6"/></svg></button><button class="dal" aria-label="Następne zdjęcia"><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="2"><path d="m7 3 6 6-6 6"/></svg></button></div>
+    </div>
+    <ul class="kat">
+      <li>Panele w kuchni <b>381</b></li>
+      <li>Kabiny prysznicowe <b>202</b></li>
+      <li>Lustra <b>117</b></li>
+      <li>Balustrady <b>77</b></li>
+      <li>Zabudowy całoszklane <b>68</b></li>
+      <li>Panele w łazience <b>46</b></li>
+      <li>Ścianki prysznicowe <b>46</b></li>
+      <li>Drzwi <b>40</b></li>
+      <li>Panele dekoracyjne <b>35</b></li>
+    </ul>
+    <div class="pas"><div class="tor" id="relpas">
+      <button data-big="img/lb-1083.webp" data-m="img/lbm-1083.webp" aria-label="Powiększ: zabudowa całoszklana łazienki"><img src="img/g-1083-600.webp" srcset="img/g-1083-600.webp 600w, img/g-1083-900.webp 900w" sizes="(max-width:767px) 84vw, (max-width:1279px) 42vw, 30vw" width="600" height="450" loading="lazy" alt="Zabudowa całoszklana łazienki"><span>Zabudowa całoszklana</span></button>
+      <button data-big="img/lb-340.webp" data-m="img/lbm-340.webp" aria-label="Powiększ: lustro z oświetleniem LED"><img src="img/g-340-600.webp" srcset="img/g-340-600.webp 600w, img/g-340-900.webp 900w" sizes="(max-width:767px) 84vw, (max-width:1279px) 42vw, 30vw" width="600" height="450" loading="lazy" alt="Lustro z ozdobnym oświetleniem LED"><span>Lustro LED</span></button>
+      <button data-big="img/lb-213.webp" data-m="img/lbm-213.webp" aria-label="Powiększ: kabina prysznicowa"><img src="img/g-213-600.webp" srcset="img/g-213-600.webp 600w, img/g-213-900.webp 900w" sizes="(max-width:767px) 84vw, (max-width:1279px) 42vw, 30vw" width="600" height="450" loading="lazy" alt="Kabina prysznicowa narożna"><span>Kabina prysznicowa</span></button>
+      <button data-big="img/lb-36.webp" data-m="img/lbm-36.webp" aria-label="Powiększ: szklana balustrada"><img src="img/g-36-600.webp" srcset="img/g-36-600.webp 600w, img/g-36-900.webp 900w" sizes="(max-width:767px) 84vw, (max-width:1279px) 42vw, 30vw" width="600" height="450" loading="lazy" alt="Szklana balustrada przy schodach"><span>Balustrada</span></button>
+      <button data-big="img/lb-380.webp" data-m="img/lbm-380.webp" aria-label="Powiększ: podświetlane lustro w łuku"><img src="img/g-380-600.webp" srcset="img/g-380-600.webp 600w, img/g-380-900.webp 900w" sizes="(max-width:767px) 84vw, (max-width:1279px) 42vw, 30vw" width="600" height="450" loading="lazy" alt="Lustro w łuku z podświetlanym ornamentem"><span>Lustro z ornamentem</span></button>
+      <button data-big="img/lb-262.webp" data-m="img/lbm-262.webp" aria-label="Powiększ: kabina walk-in"><img src="img/g-262-600.webp" srcset="img/g-262-600.webp 600w, img/g-262-900.webp 900w" sizes="(max-width:767px) 84vw, (max-width:1279px) 42vw, 30vw" width="600" height="450" loading="lazy" alt="Kabina prysznicowa z drzwiami przesuwnymi"><span>Kabina prysznicowa</span></button>
+      <button data-big="img/lb-374.webp" data-m="img/lbm-374.webp" aria-label="Powiększ: lustro z efektem głębi"><img src="img/g-374-600.webp" srcset="img/g-374-600.webp 600w, img/g-374-900.webp 900w" sizes="(max-width:767px) 84vw, (max-width:1279px) 42vw, 30vw" width="600" height="450" loading="lazy" alt="Podświetlane lustro z efektem głębi"><span>Lustro LED</span></button>
+      <button data-big="img/lb-1022.webp" data-m="img/lbm-1022.webp" aria-label="Powiększ: ścianka szklana w biurze"><img src="img/g-1022-600.webp" srcset="img/g-1022-600.webp 600w, img/g-1022-900.webp 900w" sizes="(max-width:767px) 84vw, (max-width:1279px) 42vw, 30vw" width="600" height="450" loading="lazy" alt="Całoszklana ścianka z drzwiami w biurze"><span>Zabudowa całoszklana</span></button>
+      <button data-big="img/lb-338.webp" data-m="img/lbm-338.webp" aria-label="Powiększ: okrągłe lustro"><img src="img/g-338-600.webp" srcset="img/g-338-600.webp 600w, img/g-338-900.webp 900w" sizes="(max-width:767px) 84vw, (max-width:1279px) 42vw, 30vw" width="600" height="450" loading="lazy" alt="Okrągłe lustro nad umywalką"><span>Lustro</span></button>
+      <button data-big="img/lb-35.webp" data-m="img/lbm-35.webp" aria-label="Powiększ: balustrada na antresoli"><img src="img/g-35-600.webp" srcset="img/g-35-600.webp 600w, img/g-35-900.webp 900w" sizes="(max-width:767px) 84vw, (max-width:1279px) 42vw, 30vw" width="600" height="450" loading="lazy" alt="Szklana balustrada na antresoli"><span>Balustrada</span></button>
+    </div></div>
+  </div>
+</section>
+
+<section class="sec firma" id="o-firmie">
+  <div class="wrap">
+    <div>
+      <h2>Zakład szklarski z Miszewka</h2>
+      <p>Jesteśmy zakładem szklarskim z wieloletnią tradycją. Pracujemy dla klientów w Polsce i za granicą. Specjalizujemy się w obróbce szkła płaskiego i luster w różnych kolorach, grubościach i kształtach.</p>
+      <p>Szkło i lustra tniemy i obrabiamy na nowoczesnych maszynach, z dobrych surowców. Dzięki temu terminy są krótkie, a ceny konkurencyjne. Przy kabinach i drzwiach współpracujemy z producentami okuć, między innymi z firmą CDA: zawiasy, mocowania, pochwyty i klamki dobieramy do projektu.</p>
+      <div class="lustra">
+        <h3>Szkło i lustra od ręki i na zamówienie</h3>
+        <ul class="lista" style="columns:1">
+          <li>Szkło i lustra o grubości 3, 4 i 5 mm</li>
+          <li>Lustra srebrne, brązowe, grafitowe, niebieskie i zielone</li>
+          <li>Lustra kryształowe z oświetleniem LED</li>
+          <li>Szkło hartowane 8 i 10 mm, przeźroczyste i kolorowe</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <h3>Obróbka szkła i luster</h3>
+      <ul class="lista">
+        <li>Nadruk UV</li>
+        <li>Szlifowanie<small>grubość od 2 do 30 mm</small></li>
+        <li>Fazowanie<small>faza do 35 mm</small></li>
+        <li>Polerowanie</li>
+        <li>Wiercenie otworów i wycinanie</li>
+        <li>Klejenie UV</li>
+        <li>Piaskowanie</li>
+        <li>Lakierowanie i malowanie</li>
+        <li>Hartowanie</li>
+        <li>Foliowanie</li>
+        <li>Żywicowanie</li>
+        <li>Laminowanie</li>
+      </ul>
+      <p style="margin-top:28px">Do tego konstrukcje szklane na wymiar: stoły, biurka, gabloty, akwaria, zadaszenia i podłogi szklane.</p>
+      <a class="btn ciemny" href="#kontakt">Zapytaj o swój projekt</a>
+    </div>
+  </div>
+</section>
+
+<section class="kontakt" id="kontakt">
+  <div class="wrap">
+    <div class="dane">
+      <svg class="tafle" viewBox="0 0 300 200" aria-hidden="true"><path d="M100 0 200 100 100 200 0 100Z" fill="#fff"/><path d="M150 0 250 100 150 200 50 100Z" fill="#fff" opacity=".6"/><path d="M200 0 300 100 200 200 100 100Z" fill="#fff" opacity=".35"/></svg>
+      <h2>Prześlij wymiary, przygotujemy wycenę</h2>
+      <p>Wystarczą wymiary, zdjęcie miejsca albo szkic i kilka słów o tym, co ma powstać.</p>
+      <dl>
+        <dt>Adres</dt><dd>ul. Gdyńska 60, 80-297 Miszewko</dd>
+        <dt>Telefon</dt><dd><a href="tel:+48586849892">58 684 98 92</a><br><a href="tel:+48586858164">58 685 81 64</a></dd>
+        <dt>Komórka</dt><dd><a href="tel:+48511237777">511 237 777</a></dd>
+        <dt>E-mail</dt><dd><a href="mailto:szklokolor@szklokolor.pl">szklokolor@szklokolor.pl</a></dd>
+        <dt>Godziny</dt><dd>pon.-pt. 8:00-16:00<br>soboty: odbiór po wcześniejszym uzgodnieniu</dd>
+      </dl>
+    </div>
+    <form id="form" novalidate>
+      <h3>Zapytanie o wycenę</h3>
+      <label>Imię i nazwisko<input name="imie" autocomplete="name"></label>
+      <label>Telefon lub e-mail<input name="kontakt" autocomplete="tel"></label>
+      <label class="full">Czego dotyczy zapytanie<select name="co"><option>Panel szklany do kuchni</option><option>Panel do łazienki</option><option>Kabina lub ścianka prysznicowa</option><option>Lustro</option><option>Balustrada lub schody</option><option>Drzwi lub zabudowa całoszklana</option><option>Obróbka szkła</option><option>Inne</option></select></label>
+      <label class="full">Wymiary i opis<textarea name="opis" placeholder="np. panel nad blatem 240 x 60 cm, wycięcie na 2 gniazdka"></textarea></label>
+      <label class="full">Zdjęcie miejsca lub projekt (opcjonalnie)<input type="file" name="plik" accept="image/*,.pdf"></label>
+      <button class="btn" type="submit">Wyślij zapytanie</button>
+      <p class="wyslano" id="wyslano">To podgląd strony - formularz zacznie wysyłać zapytania na Państwa skrzynkę po wdrożeniu.</p>
+    </form>
+  </div>
+  <div class="wrap mapa" id="mapa" data-src="https://maps.google.com/maps?q=Gdy%C5%84ska%2060%2C%2080-297%20Miszewko&amp;z=15&amp;output=embed">Mapa dojazdu: ul. Gdyńska 60, Miszewko</div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <a class="logo" href="#"><svg viewBox="0 0 52 36" aria-hidden="true"><path d="M17 3 32 18 17 33 2 18Z" fill="#E2001A"/><path d="M25 3 40 18 25 33 10 18Z" fill="#EC7A70"/><path d="M33 3 48 18 33 33 18 18Z" fill="#F7D3CC"/></svg><span><span class="s">Szkło</span><span class="k">KOLOR</span></span></a>
+      <p style="margin-top:16px">Szkło-Kolor sp. z o.o.<br>ul. Gdyńska 60, 80-297 Miszewko<br>NIP 586-228-43-40, KRS 0000469665</p>
+    </div>
+    <div>
+      <h4>Oferta</h4>
+      <ul><li><a href="#oferta">Panele szklane</a></li><li><a href="#oferta">Kabiny prysznicowe</a></li><li><a href="#oferta">Lustra</a></li><li><a href="#oferta">Balustrady</a></li></ul>
+    </div>
+    <div>
+      <h4>Kontakt</h4>
+      <ul><li><a href="tel:+48586849892">58 684 98 92</a></li><li><a href="tel:+48511237777">511 237 777</a></li><li><a href="mailto:szklokolor@szklokolor.pl">szklokolor@szklokolor.pl</a></li><li>pon.-pt. 8:00-16:00</li></ul>
+    </div>
+    <div class="dol">
+      <span>© <span id="rok">2026</span> Szkło Kolor sp. z o.o.</span>
+      {{BADGE_LINK}}
+    </div>
+  </div>
+</footer>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Powiększone zdjęcie">
+  <img alt="">
+  <button class="x" aria-label="Zamknij">&times;</button>
+  <button class="l" aria-label="Poprzednie"><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 3 5 9l6 6"/></svg></button>
+  <button class="p" aria-label="Następne"><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="2"><path d="m7 3 6 6-6 6"/></svg></button>
+  <div class="cap"></div>
+</div>
+
+<script>
+(function(){
+var b=document.getElementById('burger'),n=document.getElementById('nav');
+b.addEventListener('click',function(){var o=n.classList.toggle('on');b.classList.toggle('on',o);b.setAttribute('aria-expanded',o)});
+n.addEventListener('click',function(e){if(e.target.tagName==='A'){n.classList.remove('on');b.classList.remove('on');b.setAttribute('aria-expanded','false')}});
+document.getElementById('rok').textContent=new Date().getFullYear();
+// pasy zdjec
+document.querySelectorAll('.strz').forEach(function(s){
+  var t=document.getElementById(s.dataset.pas),w=s.querySelector('.wst'),d=s.querySelector('.dal');
+  function stan(){w.disabled=t.scrollLeft<4;d.disabled=t.scrollLeft+t.clientWidth>=t.scrollWidth-4}
+  function krok(){var c=t.querySelector('button');return c.getBoundingClientRect().width+parseFloat(getComputedStyle(t).columnGap||16)}
+  w.onclick=function(){t.scrollBy({left:-krok(),behavior:'smooth'})};
+  d.onclick=function(){t.scrollBy({left:krok(),behavior:'smooth'})};
+  t.addEventListener('scroll',stan,{passive:true});addEventListener('resize',stan);stan();
+});
+// przeciaganie mysza
+var ruch=false;
+document.querySelectorAll('.tor').forEach(function(t){
+  var x0,s0,on=false;
+  t.addEventListener('pointerdown',function(e){if(e.pointerType!=='mouse')return;on=true;ruch=false;x0=e.clientX;s0=t.scrollLeft});
+  addEventListener('pointermove',function(e){if(!on)return;var dx=e.clientX-x0;if(Math.abs(dx)>5){ruch=true;t.classList.add('drag')}t.scrollLeft=s0-dx});
+  addEventListener('pointerup',function(){if(!on)return;on=false;t.classList.remove('drag');
+    var c=t.querySelector('button'),k=c.getBoundingClientRect().width+parseFloat(getComputedStyle(t).columnGap||16);t.scrollTo({left:Math.round(t.scrollLeft/k)*k,behavior:'smooth'})});
+});
+// lightbox
+var lb=document.getElementById('lb'),li=lb.querySelector('img'),cap=lb.querySelector('.cap'),lista=[],i=0,mob=matchMedia('(max-width:900px)').matches;
+function pokaz(k){i=(k+lista.length)%lista.length;var e=lista[i],m=e.querySelector('img');li.src=m.currentSrc||m.src;li.alt=m.alt;cap.textContent=m.alt+'  '+(i+1)+' / '+lista.length;
+  var big=mob?e.dataset.m:e.dataset.big;setTimeout(function(){if(lista[i]===e){var im=new Image();im.onload=function(){if(lista[i]===e)li.src=big};im.src=big}},180)}
+document.querySelectorAll('.tor').forEach(function(t){t.addEventListener('click',function(e){var c=e.target.closest('button');if(!c||ruch){ruch=false;return}lista=[].slice.call(t.querySelectorAll('button'));pokaz(lista.indexOf(c));lb.classList.add('on');document.body.style.overflow='hidden'})});
+function zamknij(){lb.classList.remove('on');document.body.style.overflow=''}
+lb.querySelector('.x').onclick=zamknij;lb.querySelector('.l').onclick=function(){pokaz(i-1)};lb.querySelector('.p').onclick=function(){pokaz(i+1)};
+lb.addEventListener('click',function(e){if(e.target===lb)zamknij()});
+addEventListener('keydown',function(e){if(!lb.classList.contains('on'))return;if(e.key==='Escape')zamknij();if(e.key==='ArrowLeft')pokaz(i-1);if(e.key==='ArrowRight')pokaz(i+1)});
+var sx=null;lb.addEventListener('touchstart',function(e){sx=e.touches[0].clientX},{passive:true});
+lb.addEventListener('touchend',function(e){if(sx===null)return;var dx=e.changedTouches[0].clientX-sx;if(Math.abs(dx)>40)pokaz(dx<0?i+1:i-1);sx=null});
+// mapa przy przewinieciu
+var mp=document.getElementById('mapa');
+new IntersectionObserver(function(en,o){if(en[0].isIntersecting){mp.innerHTML='<iframe title="Mapa dojazdu Szkło Kolor" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="'+mp.dataset.src+'"></iframe>';o.disconnect()}},{rootMargin:'300px'}).observe(mp);
+// formularz pokazowy
+document.getElementById('form').addEventListener('submit',function(e){e.preventDefault();document.getElementById('wyslano').style.display='block'});
+})();
+</script>
+</body>
+</html>
